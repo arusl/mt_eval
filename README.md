@@ -14,5 +14,12 @@ print(torch.cuda.device_count())
 print(torch.cuda.get_device_name(0)) # e.g. GeForce RTX 3070
 ```
 
-To install huggingface-related package, you need to make sure PyTorch is installed, then check here https://huggingface.co/docs/transformers/installation.
+To install huggingface-related package, you need to make sure [PyTorch is installed](https://pytorch.org/get-started/locally/), then check here https://huggingface.co/docs/transformers/installation.
 
+## Python Virtual Env
+- Creating: `python -m venv .env`
+- Activating
+    - Windows: `. .env/Scripts/activate`
+    - Linux/MacOS: `source .env/bin/activate`
+- Deactivating: `deactivate` or `conda deactivate` or `source deactivate`
+- Installing all required packages: `pip install -r requirements.txt`
